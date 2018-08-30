@@ -241,7 +241,7 @@ header .mobile {
     padding-left: 0px;
     padding-right: 0px;
   }
-  
+
 }
 
 /* Features Section */
@@ -414,6 +414,11 @@ header .mobile {
     display: block;
     padding-top: 1rem;
     margin: auto;
+  }
+}
+@media only screen and (max-width: 560px) {
+  #quotes-section .quote{
+    font-size: 1rem;
   }
 }
 
